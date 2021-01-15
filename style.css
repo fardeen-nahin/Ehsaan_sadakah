@@ -4,3 +4,7 @@ section{
 .half-width{
   float: left;
 }
+.bold{
+  color: black;
+  text-align: justify;
+}
