@@ -26,7 +26,6 @@
           >
             ইহসান
           </h1>
-          <!-- <img height="40px" src="images/logo.png" alt="" /> -->
           <button
             class="navbar-toggler"
             type="button"
@@ -41,22 +40,25 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div style="margin-left: 60px" class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">হোম</a>
-              <a class="nav-link" href="#gallary">গ্যালারী</a>
-              <a class="nav-link" href="#">সদস্যগণ</a>
-              <a class="nav-link" href="#">আমাদের সম্পর্কে</a>
+              <a class="nav-link" href="#gallary">সাদাকাহ প্রজেক্ট</a>
+              <a class="nav-link" href="#members">সদস্যগণ</a>
+              <a class="nav-link" href="#funding">অর্থায়ন</a>
             </div>
           </div>
         </div>
       </nav>
+
       <div
         id="carouselExampleControls"
-        class="carousel slide mt-5"
+        class="carousel slide mt-5 bg-colr"
         data-bs-ride="carousel"
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="row">
-              <div class="col-md-7"></div>
+            <div class="row d-flex align-items-center">
+              <div class="col-md-7 d-flex align-items-center">
+                
+              </div>
               <div class="col-md-5">
                 <img
                   style="border-radius: 15px"
@@ -69,7 +71,9 @@
           </div>
           <div class="carousel-item">
             <div class="row">
-              <div class="col-md-7"></div>
+              <div class="col-md-7 d-flex align-items-center">
+               
+              </div>
               <div class="col-md-5">
                 <img
                   style="border-radius: 15px"
@@ -82,7 +86,9 @@
           </div>
           <div class="carousel-item">
             <div class="row">
-              <div class="col-md-7"></div>
+              <div class="col-md-7 d-flex align-items-center">
+                
+              </div>
               <div class="col-md-5">
                 <img
                   style="border-radius: 15px"
@@ -116,28 +122,29 @@
     </header>
 
     <main>
-      <section>
-        <h1 id="gallary" style="text-align: center; color: orange">
+      <section class="bg-colr">
+        <h1 id="gallary" style="text-align: center; color: rgb(0, 0, 0)">
           আমাদের কার্যক্রমের কিছু অংশ
         </h1>
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
           <div class="col bold">
             <div class="card h-100">
               <img
-                src="images/card/while.jpeg"
+                src="images/card/moktob-aqiz.jpg"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <h3 class="card-title">হুইলচেয়ার প্রজেক্ট</h3>
+                <h3 class="card-title">মোক্তব নির্মাণ প্রজেক্ট</h3>
                 <p class="card-text">
-                  গাইবান্ধার সুন্দরগঞ্জ উপজেলার বেলকায় একজন পক্ষাঘাত গ্রস্থ
-                  বৃদ্ধাকে হুইলচেয়ারটি বিতরণ করা হয়। আর্থিক অবস্থা খারাপ হবার
-                  কারণে হুইলচেয়ারের অভাবে ওনার চলাফেরায় অনেক সমস্যা হচ্ছিল।
+                  গাইবান্ধার ফুলছড়ি উপজেলার সন্যাসীর চরে এই মক্তবটি নির্মাণ করা
+                  হয় আকীজ গ্রুপের অর্থায়নে। বর্তমানে এখানে একজন শিক্ষিকা ও প্রায়
+                  ৫০-৬০ জন্য শিক্ষার্থী নিয়মিত কুর'আনের ইলম অর্জনে যাওয়া আসা
+                  করছে।
                 </p>
               </div>
               <div class="card-footer">
-                <small> আনুমানিক ব্যয় - ৯ হাজার টাকা</small>
+                <small> আনুমানিক ব্যয় - ১ লক্ষ টাকা</small>
               </div>
             </div>
           </div>
@@ -246,15 +253,15 @@
         </div>
       </section>
 
-      <section class="container" style="text-align: center;">
-        <h1 id="gallary" style="text-align: center; color: orange">
+      <section id="members" class="container bg-colr" style="text-align: center">
+        <h1 id="gallary" style="text-align: center; color: rgb(0, 0, 0)">
           সদস্য বৃন্দ
         </h1>
         <div class="row">
           <div class="col-sm-3">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">মঞ্জুর আল ইসলাম</h5>
+                <h2 class="card-title">মঞ্জুর আল ইসলাম</h2>
                 <p class="card-text">সম্মানিত আমীর</p>
                 <a href="#" class="btn btn-warning"> যোগাযোগ</a>
               </div>
@@ -263,7 +270,7 @@
           <div class="col-sm-3">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">যোবায়ের হোসেন</h5>
+                <h2 class="card-title">যোবায়ের হোসেন</h5>
                 <p class="card-text">প্রজেক্ট অর্গানাইজার ও ফান্ড সংগ্রহ</p>
                 <a href="#" class="btn btn-warning"> যোগাযোগ</a>
               </div>
@@ -272,7 +279,7 @@
           <div class="col-sm-3">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">শরীফ আহমাদ</h5>
+                <h2 class="card-title">শরীফ আহমাদ</h2>
                 <p class="card-text">অর্থের হিসাব ও ফান্ড সংরক্ষণ</p>
                 <a href="#" class="btn btn-warning"> যোগাযোগ</a>
               </div>
@@ -281,13 +288,99 @@
           <div class="col-sm-3">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">ফারদিন নাহিন</h5>
+                <h2 class="card-title">ফারদিন নাহিন</h2>
                 <p class="card-text">ফান্ড সংগ্রহ ও টেকনোলজিকাল সাপোর্ট</p>
                 <a href="#" class="btn btn-warning"> যোগাযোগ</a>
               </div>
             </div>
           </div>
         </div>
+      </section>
+      <section
+        id="funding"
+        class="container bg-colr"
+        style="text-align: center; margin-bottom: 100px; margin-top: 100px"
+      >
+        <h1 id="gallary" style="text-align: center; color: rgb(0, 0, 0)">
+          যারা আমাদের অর্থায়ন করেছেন
+        </h1>
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">নাসীহাহ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">আকীজ গ্রুপ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">সাবা-সানাবিল</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">সাদাকাহ ফাউন্ডেশন</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">তাকওয়া ফাউন্ডেশন</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">দ্বীনি ভাই-বোনেরা</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h1>আমাদের সদস্য হতে সাইন ইন করুন</h1>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">নাম</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">ইমেইল</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">ফোন নম্বর</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">ঠিকানা</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                তথ্যে কোন ভুল নেই
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">রেজিস্টার</button>
+          </div>
+        </form>
       </section>
     </main>
 
